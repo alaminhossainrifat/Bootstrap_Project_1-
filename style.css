@@ -1,0 +1,187 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+    
+header{
+    background-image: url(./Image/bg_2.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.banner-container{
+    height: 100vh;
+}
+
+/* Navbar start here */
+.menu-icon{
+    color: white;
+}
+/* .navbar{
+    background-color: rgba(0, 0, 0, .3);
+} */
+.navbar-nav{
+    color: white;
+}
+.navbar-brand img{
+    width: 70px;
+    height: auto;
+}
+
+.nav-link{
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background-color: rgba(0, 151, 252, 0.5);
+    color: white;
+    transform: scale(1.1);
+}
+.banner-contant h2{
+    font-size: 60px;
+    font-family: 'Handlee', cursive;
+}
+/* Navbar end here */
+
+
+
+
+/* Feature Card start */
+#features-card{
+    padding: 30px 50px;
+    background-color: #e8ded2;
+}
+.card-info{
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 20px 0;
+    transition: .4s;
+}
+.card-info:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.icon-style{
+    background-color: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+
+}
+.card-info p{}
+
+
+/* Feature Card End */
+
+
+
+/* About ME start */
+.hr-style{
+    border: 5px dotted black;
+    border-bottom: none;
+    width: 50px;
+}
+#about-me{
+    padding: 30px 50px;
+    background-color: #e8ded2;
+}
+#about-me p{
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    font-weight: light;
+}
+#about-me a{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    text-decoration: underline;
+    color: black;
+}
+.star{
+    width: 20px;
+}
+/* About ME End */
+
+
+
+/* tutorial start here */
+#tutorial{
+    padding: 30px 50px;
+    background-color: #a3d2ca;
+}
+.card{
+    margin-top: 10px;
+    transition: .4s;
+    border: 1px solid #ff02c0;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+/* tutorial start End */
+
+
+/* feedback start here */
+#feedback{
+    padding: 30px 50px;
+    background-color: #5eaaa8 ;
+}
+.feedback-img{
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+}
+/* feedback start End */
+
+
+/* Contact ME start Here */
+#contact-me{
+    padding: 30px 50px;
+    background-color: #9ad1d1;
+}
+.form-group label{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+/* Contact ME End Here */
+
+/* Footer Start Here */
+footer{
+    padding: 30px 50px;
+    background-color: #046573;
+}
+footer p{
+    color: white;
+}
+footer a{
+    color: white;
+    margin: 0 10px;
+    transition: .4s;
+}
+footer a:hover{
+    color: black;
+    transform: scale(1.1);
+}
+/* Footer End Here */
